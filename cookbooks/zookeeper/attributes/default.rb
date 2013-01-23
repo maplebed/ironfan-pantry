@@ -8,6 +8,8 @@ default[:zookeeper][:home_dir]               = '/usr/lib/zookeeper'
 default[:zookeeper][:conf_dir]               = '/etc/zookeeper'
 default[:zookeeper][:log_dir]                = '/var/log/zookeeper'
 default[:zookeeper][:pid_dir]                = '/var/run/zookeeper'
+default[:zookeeper][:data_dir]               = '/var/lib/zookeeper'
+default[:zookeeper][:journal_dir]            = '/var/lib/zookeeper'
 
 #
 # Ports
